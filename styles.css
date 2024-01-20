@@ -1,15 +1,40 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: rgb(170, 240, 240);
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(227, 247, 250);
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
+form {
+  width: 40rem;
+  margin: 3rem auto;
+  padding: 1rem;
+  background-color: rgb(231, 238, 238);
+  border-radius: 6px;
+  border: 2px solid rgba(208, 241, 241, 0.925);
+  box-shadow: 4px 4px 3px rgba(56, 56, 56, 0.39);
+}
+
+label {
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+input {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  font: inherit;
+  padding: 0.25rem;
+  border: .5px solid rgba(0, 0, 0, 0.274);
+  border-radius: 4px;
+  color: rgb(61, 58, 58);
+}

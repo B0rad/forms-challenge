@@ -14,21 +14,30 @@
   </head>
   <body>
     <header>
-        <h1>Contact Us</h1>
+      <h1>Contact Us</h1>
     </header>
     <main>
-        <form action="/" method="get">
-            <section id="contact-info">
-                <h2>How can we help you?</h2>
-                <ul>
-                    <li id="user-info">
-                        <label for="contactinfo">Your Name</label>
-                        <input type="text" name="contact-info" id="contactinfo" required placeholder="First name, last name">
-                    </li>
-                </ul>
-            </section>
-        </form>
-
+      <form action="/" method="get">
+        <section id="contact-info">
+          <h2>How can we help you?</h2>
+          <ul>
+            <li id="user-info">
+              <label for="username">Your Name</label>
+              <input
+                type="text"
+                name="contact-info"
+                id="contactinfo"
+                required
+                placeholder="First name, last name"
+              />
+            </li>
+            <li id="user-info">
+              <label for="useremail">Your email address</label>
+              <input type="email" name="user-email" id="useremail" />
+            </li>
+          </ul>
+        </section>
+      </form>
     </main>
   </body>
 </html>
