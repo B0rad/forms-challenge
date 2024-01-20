@@ -1,11 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <title>Test forms challenge site</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <main>
+        <form action="/" method="get">
+            <section id="contact-info">
+                <h2>How can we help you?</h2>
+                <ul>
+                    <li id="user-info">
+                        <label for="contactinfo">Your Name</label>
+                        <input type="text" name="contact-info" id="contactinfo" required placeholder="First name, last name">
+                    </li>
+                </ul>
+            </section>
+        </form>
+
+    </main>
+  </body>
 </html>
